@@ -21,7 +21,7 @@
  * 51 Franklin Street, Fifth Floor
  * Boston, MA  02110-1301  USA
  */
-package aws_hibernate.aws_hibernate;
+package hibis.tester;
 
 import java.util.Date;
 import java.util.List;
@@ -42,7 +42,7 @@ import junit.framework.TestCase;
  *
  * @author Steve Ebersole
  */
-public class AnnotationsIllustrationTest extends TestCase {
+public class Tester extends TestCase {
 	private SessionFactory sessionFactory;
 
 	@Override
